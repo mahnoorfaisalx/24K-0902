@@ -1,0 +1,8 @@
+START
+PRINT “Enter two numbers and an operator” 
+INPUT Num1, Num2, Operator 
+IF Operator =  “/” THEN
+     SET Result to Num1 / Num2
+ELSE 
+     SET Result to Num1 * Num2 
+END 
