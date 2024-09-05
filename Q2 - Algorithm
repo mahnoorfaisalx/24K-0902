@@ -1,0 +1,4 @@
+Step 1 – Ask the user to input a day number between 1 and 365. If the user doesn’t input a number within this range, keep prompting the user to do so until they input a valid number. 
+Step 2 – Subtract the day number by 1 and store it in a temporary variable, Temp. 
+Step 3 – Calculate the remainder of Temp divided by 7 using the MOD function.
+Step 4 – If the remainder is equal to 0, it means that the day is Monday. If the remainder is equal to 1, 2, 3, 4, 5, or 6, then the day is Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday, respectively.
