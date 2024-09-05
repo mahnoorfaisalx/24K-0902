@@ -1,0 +1,8 @@
+START 
+IF (Num1 < Num2) AND (Num1 < Num3) THEN
+     PRINT(“Num1 is the smallest”)
+ELSE IF (Num2  < Num1) AND (Num2 < Num3) THEN
+     PRINT(“Num2 is smallest”)
+ELSE
+   PRINT(“Num3 is the smallest”)
+END
