@@ -1,0 +1,9 @@
+Step 1 – Take two numbers as input, num1 and num2. 
+Step 2 – If num1 is less than num2, swap them so that num1 is always the larger number and num2 is the smaller number.
+Step 3 – Repeat the steps below until num2 becomes 0. 
+Step 4 – Calculate the remainder of the num1 divided by num2 using the MOD function. (ie Remainder = Num1 % Num2)
+Step 5 – Replace num1 with num2 and num2 with the remainder calculated in the previous step.
+Step 6- Eventually, when num2 becomes 0, the current value of the num1 would be equal to the GCD.
+
+
+
